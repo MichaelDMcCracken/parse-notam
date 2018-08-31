@@ -1,0 +1,17 @@
+{
+  "name": "parse-notam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive test/",
+    "development": "nodemon --watch index.js --watch test/** --exec 'npm test || true'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.4"
+  }
+}
