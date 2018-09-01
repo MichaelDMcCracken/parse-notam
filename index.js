@@ -1,9 +1,8 @@
 'use strict';
-module.exports = parseNotam;
 
-var notamKeywords = ['RWY', 'TWY', 'APRON', 'AD', 'OBST', 'NAV', 'COM', 'SVC', 'AIRSPACE', 'ODP', 'SID', 'STAR', 'CHART', 'DATA', 'IAP', 'VFP', 'ROUTE', 'SPECIAL', 'SECURITY'];
+var NOTAM_KEYWORDS = ['RWY', 'TWY', 'APRON', 'AD', 'OBST', 'NAV', 'COM', 'SVC', 'AIRSPACE', 'ODP', 'SID', 'STAR', 'CHART', 'DATA', 'IAP', 'VFP', 'ROUTE', 'SPECIAL', 'SECURITY'];
 
-function parseNotam(str) {
+module.exports = function parseNotam (str) {
   var obj = {};
 
   obj.original = str;
@@ -18,4 +17,4 @@ function parseNotam(str) {
     end: date[2]
   };
   return obj;
-}
+};
