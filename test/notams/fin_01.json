@@ -1,0 +1,15 @@
+{
+  "original": "!FIN 08/001 FIN RWY 11 RIGHT PATTERN 1508031306-PERM",
+  "accountability": "FIN",
+  "notamNumber": "08/001",
+  "location": "FIN",
+  "keyword": "RWY",
+  "runway": {
+    "identification": "11",
+    "condition": "RIGHT PATTERN"
+  },
+  "time": {
+    "start": "1508031306",
+    "permanent": true
+  }
+}
