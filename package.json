@@ -1,13 +1,16 @@
 {
   "name": "parse-notam",
   "version": "1.0.0",
-  "description": "",
+  "description": "Parse FAA NOTAMs into a JavaScript object.",
   "main": "index.js",
   "scripts": {
     "test": "mocha --recursive test/",
     "development": "nodemon --watch index.js --watch test/** --exec 'npm test || true'"
   },
-  "author": "",
+  "contributors": [
+    "Michael McCracken <michael.mccracken172@gmail.com>",
+    "Ryan Burnette <ryan.burnette@gmail.com>"
+  ],
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.1.2",

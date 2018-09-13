@@ -1,0 +1,19 @@
+{
+  "original": "!RDU 07/300 RDU APRON TXL F BTN TWY T3 AND TWY T4 CLSD 1807301130-1810102100",
+  "accountability": "RDU",
+  "notamNumber": "07/300",
+  "location": "RDU",
+  "keyword": "APRON",
+  "apron": {
+    "identification": "TXL F",
+    "between": [
+      "TWY T3",
+      "TWY T4"
+    ],
+    "condition": "CLSD"
+  },
+  "time": {
+    "start": "1807301130",
+    "end": "1810102100"
+  }
+}

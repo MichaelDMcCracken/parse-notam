@@ -1,0 +1,17 @@
+{
+  "original": "!RDU 06/324 RDU NAV ILS RWY 23R DME NOT MNT 1806291857-1812312000EST",
+  "accountability": "RDU",
+  "notamNumber": "06/324",
+  "location": "RDU",
+  "keyword": "NAV",
+  "subject": {
+    "type": "ILS",
+    "identification": "RWY 23R",
+    "condition": "DME NOT MNT"
+  },
+  "time": {
+    "start": "1806291857",
+    "end": "1812312000",
+    "estimated": true
+  }
+}

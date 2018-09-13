@@ -1,0 +1,15 @@
+{
+  "original": "!RDU 06/013 RDU TWY B9 CLSD 1806041200-1810102200",
+  "accountability": "RDU",
+  "notamNumber": "06/013",
+  "location": "RDU",
+  "keyword": "TWY",
+  "taxiway": {
+    "identification": "B9",
+    "condition": "CLSD"
+  },
+  "time": {
+    "start": "1806041200",
+    "end": "1810102200"
+  }
+}

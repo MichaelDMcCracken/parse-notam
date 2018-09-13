@@ -1,0 +1,15 @@
+{
+  "original": "!ORF 07/062 ORF RWY 05/23 CL MARKINGS NOT STD 1808020600-1811301015",
+  "accountability": "ORF",
+  "notamNumber": "07/062",
+  "location": "RDU",
+  "keyword": "RWY",
+  "runway": {
+    "identification": "05/23",
+    "condition": "CL MARKINGS NOT STD"
+  },
+  "time": {
+    "start": "1808020600",
+    "end": "1811301015"
+  }
+}

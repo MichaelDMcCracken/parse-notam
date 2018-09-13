@@ -1,0 +1,25 @@
+{
+  "original": "!RDU 09/003 RDU OBST TOWER LGT (ASR 1007885) 354736.00N0784537.00W
+  (5.2NM SSE RDU) 996.1FT (500.0FT AGL) OUT OF SERVICE
+  1809010310-1810010400",
+  "accountability": "RDU",
+  "notamNumber": "09/003",
+  "location": "RDU",
+  "keyword": "OBST",
+  "obstruction": {
+    "subject": "TOWER LGT",
+    "obstruction-identifier": "ASR 1007885",
+    "location": {
+      "latitude": "354736.00N",
+      "longitude": "0784537.00W",
+      "direction": "5.2NM SSE RDU",
+      "altitude": "996.1FT",
+      "elevation": "500.0FT AGL"
+    },
+    "condition": "OUT OF SERVICE"
+  },
+  "time": {
+    "start": "1809010310",
+    "end": "1810010400"
+  }
+}

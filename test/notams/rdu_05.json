@@ -1,0 +1,17 @@
+{
+  "original": "!RDU 06/206 RDU NAV VOR GND REC CHECKPOINT OUT OF SERVICE 1806201242-1812202111EST",
+  "accountability": "RDU",
+  "notamNumber": "06/206",
+  "location": "RDU",
+  "keyword": "NAV",
+  "subject": {
+    "type": "VOR",
+    "identification": "GND REC",
+    "condition": "CHECKPOINT OUT OF SERVICE"
+  },
+  "time": {
+    "start": "1806201242",
+    "end": "1812202111",
+    "estimated": true
+  }
+}

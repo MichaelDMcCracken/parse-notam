@@ -28,6 +28,16 @@ describe('#parseNotam',function () {
     expect(notamObj.notamNumber).to.eq('08/302');
   });
 
+  it('parses the notamNumPar',function () {
+    var notamObj = parseNotam(rduNotam);
+    expect(notamObj.notamNumPar).to.eq('(KRDU A1185/18)');
+  });
+
+  it('parses the location',function () {
+    var notamObj = parseNotam(rduNotam);
+    expect(notamObj.location).to.eq('RDU');
+  });
+
   it('parses the dates',function () {
     var notam = parseNotam(rduNotam);
     expect(notam.date).to.be.an('object');

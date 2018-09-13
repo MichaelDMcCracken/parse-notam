@@ -1,0 +1,16 @@
+{
+  "original": "!RDU 08/302 (KRDU A1185/18) RDU RWY 05R/23L CLSD 1809010000-1809011200",
+  "accountability": "RDU",
+  "notamNumber": "08/302",
+  "notamNumPar": "(KRDU A1185/18)",
+  "location": "RDU",
+  "keyword": "RWY",
+  "runway": {
+    "identification": "05R/23L",
+    "condition": "CLSD"
+  },
+  "time": {
+    "start": "1809010000",
+    "end": "1809011200"
+  }
+}

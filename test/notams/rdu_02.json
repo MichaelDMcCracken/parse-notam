@@ -1,0 +1,19 @@
+{
+  "original": "!RDU 09/062 RDU TWY A BTN TWY D AND TWY A8 CLSD 1809101100-1812012200",
+  "accountability": "RDU",
+  "notamNumber": "09/062",
+  "location": "RDU",
+  "keyword": "TWY",
+  "taxiway": {
+    "identification": "A",
+    "between": [
+      "TWY D",
+      "TWY A8"
+    ],
+    "condition": "CLSD"
+  },
+  "time": {
+    "start": "1809101100",
+    "end": "1812012200"
+  }
+}
