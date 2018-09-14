@@ -1,0 +1,17 @@
+{
+  "original": "!OMA 08/054 (KOMA A3734/18) OMA NAV ILS RWY 32L RIKKY LOM OUT OF SERVICE 1808081814-PERM",
+  "accountability": "OMA",
+  "notamNumber": "08/054",
+  "notamNumPar": "(KOMA A3734/18)",
+  "location": "OMA",
+  "keyword": "NAV",
+  "subject": {
+    "type": "ILS",
+    "identification": "RWY 32L",
+    "condition": "RIKKY LOM OUT OF SERVICE"
+  },
+  "time": {
+    "start": "1808081814",
+    "permanent": true
+  }
+}

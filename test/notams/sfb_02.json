@@ -1,0 +1,23 @@
+{
+  "original": "!SFB 09/101 SFB OBST TOWER LGT (ASR 1029737) 284855.70N0811816.40W (4.3NM WNW SFB) 288.1FT (268.0FT AGL) OUT OF SERVICE 1809140325-1809280400",
+  "accountability": "SFB",
+  "notamNumber": "09/101",
+  "location": "SFB",
+  "keyword": "OBST",
+  "obstruction": {
+    "subject": "TOWER LGT",
+    "obstruction-identifier": "ASR 1029737",
+    "location": {
+      "latitude": "284855.70N",
+      "longitude": "0811816.40W",
+      "direction": "4.3NM WNW SFB",
+      "altitude": "288.1FT",
+      "elevation": "268.0FT AGL"
+    },
+    "condition": "OUT OF SERVICE"
+  },
+  "time": {
+    "start": "1809140325",
+    "end": "1809280400"
+  }
+}

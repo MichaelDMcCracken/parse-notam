@@ -1,0 +1,17 @@
+{
+  "original": "!SFB 09/076 (KSFB A0925/18) SFB RWY 09R RAI LGT OUT OF SERVICE 1809121156-1809202000EST",
+  "accountability": "SFB",
+  "notamNumber": "09/076",
+  "notamNumPar": "(KSFB A0925/18)",
+  "location": "SFB",
+  "keyword": "RWY",
+  "runway": {
+    "identification": "09R",
+    "condition": "RAI LGT OUT OF SERVICE"
+  },
+  "time": {
+    "start": "1809121156",
+    "end": "1809202000",
+    "estimated": true
+  }
+}
