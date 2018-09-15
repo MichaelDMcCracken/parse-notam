@@ -2,10 +2,9 @@ var mocha = require('mocha');
 var describe = mocha.describe;
 var chai = require('chai');
 var expect = chai.expect;
-
 var parseNotam = require('../index.js');
-var rduNotam = "!RDU 08/302 (KRDU A1185/18) RDU RWY 05R/23L CLSD 1809010000-1809011200";
-var fdcNotam = "!FDC 8/3637 (KRDU A1057/18) RDU IAP RALEIGH-DURHAM INTL, Raleigh/Durham, NC. RNAV (RNP) Z RWY 23L, AMDT 2B... RNAV (RNP) Z RWY 23R, AMDT 2B... RNAV (RNP) Z RWY 5L, AMDT 2B... RNAV (RNP) Z RWY 5R, AMDT 2B... PROCEDURE NA. 1807251819-1903061819EST";
+var fs = require('fs');
+var path = require('path');
 
 describe('#parseNotam',function () {
   it('is a function',function () {
@@ -13,35 +12,22 @@ describe('#parseNotam',function () {
   });
 
   it('returns an object',function () {
-    expect(parseNotam(rduNotam)).to.be.a('object');
+    expect(parseNotam('!RDU 08/302 (KRDU A1185/18) RDU RWY 05R/23L CLSD 1809010000-1809011200')).to.be.a('object');
   });
+});
 
-  it('parses the accountability',function () {
-    var notamObj = parseNotam(rduNotam);
-    expect(notamObj.accountability).to.eq('RDU');
-    notamObj = parseNotam(fdcNotam);
-    expect(notamObj.accountability).to.eq('FDC');
-  });
+var files = fs.readdirSync(path.resolve(__dirname,'notams'));
 
-  it('parses the notamNumber',function () {
-    var notamObj = parseNotam(rduNotam);
-    expect(notamObj.notamNumber).to.eq('08/302');
-  });
+var notams = [];
+files.forEach(function (fileName) {
+  if (fileName.endsWith('.json')) {
+    notams.push(JSON.parse(fs.readFileSync(path.resolve(__dirname,'notams',fileName))));
+  }
+});
 
-  it('parses the notamNumPar',function () {
-    var notamObj = parseNotam(rduNotam);
-    expect(notamObj.notamNumPar).to.eq('(KRDU A1185/18)');
-  });
+notams.forEach(function (notam) {
+  var original = notam.original;
+  var newObj = parseNotam(original);
 
-  it('parses the location',function () {
-    var notamObj = parseNotam(rduNotam);
-    expect(notamObj.location).to.eq('RDU');
-  });
 
-  it('parses the dates',function () {
-    var notam = parseNotam(rduNotam);
-    expect(notam.date).to.be.an('object');
-    expect(notam.date.start).to.eq('1809010000');
-    expect(notam.date.end).to.eq('1809011200');
-  });
 });
