@@ -7,7 +7,12 @@ module.exports = function parseNotam (str) {
   obj.original = str;
   obj.accountability = str.split(' ')[0].replace('!','');
   obj.notamNumber = str.match(/\s([0-9]*\/[0-9]*)\s/)[1];
-  obj.notamNumPar = str.match(/\(([A-Z]{4})\s([A-Z][0-9]{4}\/[0-9]{2})\)/)[0];
+
+  var notamNumParMatch = str.match(/\(([A-Z]{4})\s([A-Z][0-9]{4}\/[0-9]{2})\)/);
+  if (notamNumParMatch) {
+    obj.notamNumPar = notamNumParMatch[0];
+  }
+
   //obj.location = str.match(/\s([A-Z]{3})\s([IAP,RWY,TWY,COM]*)\s([0-9,A-Z,a-z,.,:,\s]*)([0-9]{10})-([0-9]{10}|PERM)/)[0];
   //obj.keyword = str.match(/\s([A-Z]{3})\s([IAP,RWY,TWY,COM]*)\s([0-9,A-Z,a-z,.,:,\s]*)([0-9]{10})-([0-9]{10}|PERM)/)[2];
   var date = str.match(/([\d]{10})-([\d]{10}|PERM)([\w]{3})?/);
