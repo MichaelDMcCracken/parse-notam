@@ -13,6 +13,7 @@
   ],
   "license": "ISC",
   "devDependencies": {
+    "@ryanburnette/alphabetize-object-keys": "^1.0.0",
     "chai": "^4.1.2",
     "mocha": "^5.2.0",
     "nodemon": "^1.18.4"
