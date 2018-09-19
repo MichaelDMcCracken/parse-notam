@@ -1,0 +1,17 @@
+{
+  "original": "!SFB 09/042 (KSFB A0881/18) SFB RWY 09R/27L ALL DIST REMAINING SIGNS MISSING 1809082320-1809242000",
+  "accountability": "SFB",
+  "notamNumber": "09/042",
+  "notamNumPar": "(KSFB A0881/18)",
+  "location": "SFB",
+  "keyword": "RWY",
+  "runway": {
+    "identification": "09R/27L",
+    "condition": "ALL DIST REMAINING SIGNS MISSING"
+  },
+  "time": {
+    "start": "1809082320",
+    "end": "1809242000",
+    "estimated": true
+  }
+}

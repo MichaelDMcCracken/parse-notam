@@ -1,0 +1,19 @@
+{
+  "original": "!SFB 09/022 SFB TWY B CL MARKINGS BTN RWY 18/36 AND TWY B7 NOT STD 1809061451-1810082000",
+  "accountability": "SFB",
+  "notamNumber": "09/022",
+  "location": "SFB",
+  "keyword": "TWY",
+  "taxiway": {
+    "identification": "B",
+    "between": [
+      "RWY 18/36",
+      "TWY B7"
+    ],
+    "condition": "CL MARKINGS NOT STD"
+  },
+  "time": {
+    "start": "1809061451",
+    "end": "1810082000"
+  }
+}

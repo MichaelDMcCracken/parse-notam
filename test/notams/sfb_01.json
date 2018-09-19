@@ -1,0 +1,20 @@
+{
+  "original": "!SFB 09/100 (KSFB A0954/18) SFB RWY 18/36 CLSD EXC TAX BTN RWY 09L/27R AND TWY S 1809141000-1809150300",
+  "accountability": "SFB",
+  "notamNumber": "09/100",
+  "notamNumPar": "(KSFB A0954/18)",
+  "location": "SFB",
+  "keyword": "RWY",
+  "runway": {
+    "identification": "18/36",
+    "between": [
+      "RWY 09L/27R",
+      "TWY S"
+    ],
+    "condition": "CLSD EXC TAX"
+  },
+  "time": {
+    "start": "1809141000",
+    "end": "1809150300"
+  }
+}

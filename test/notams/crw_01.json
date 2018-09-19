@@ -1,0 +1,19 @@
+{
+  "original": "!CRW 09/033 CRW TWY B2 BTN TWY B AND TWY C CLSD 1809111715-1809212300",
+  "accountability": "CRW",
+  "notamNumber": "09/033",
+  "location": "CRW",
+  "keyword": "TWY",
+  "taxiway": {
+    "identification": "B2",
+    "between": [
+      "B",
+      "C"
+    ],
+    "condition": "CLSD"
+  },
+  "time": {
+    "start": "1809111715",
+    "end": "1809212300"
+  }
+}

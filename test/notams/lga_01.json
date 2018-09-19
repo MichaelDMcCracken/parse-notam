@@ -1,0 +1,17 @@
+{
+  "original": "!LGA 09/061 LGA RWY 04 FICON 5/5/5 100 PRCT WET OBSERVED AT 1809122130. 1809122130-1809132130",
+  "accountability": "LGA",
+  "notamNumber": "09/061",
+  "location": "LGA",
+  "keyword": "RWY",
+  "runway": {
+    "identification": "04",
+    "ficon": "5/5/5",
+    "condition": "100 PRCT WET",
+    "observation-time": "1809122130"
+  },
+  "time": {
+    "start": "1809122130",
+    "end": "1809132130"
+  }
+}

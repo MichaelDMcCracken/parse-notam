@@ -1,0 +1,24 @@
+{
+  "original": "!FDC 8/3289 (KOMA A2758/18) OMA IAP EPPLEY AIRFIELD, Omaha, NE. RNAV (RNP) Z RWY 14R, ORIG-C... RNP 0.30 DA 1500/DA 515. 1805241549-1901031549EST",
+  "accountability": "FDC",
+  "notamNumber": "8/3289",
+  "notamNumPar": "(KOMA A2758/18)",
+  "location": "OMA",
+  "keyword": "IAP",
+  "iap": {
+    "airport-name": "EPPLEY AIRFIELD",
+    "city": "Omaha, NE",
+    "approach-type": "RNAV (RNP)",
+    "identifier": "Z RWY 14R",
+    "amendment": "ORIG-C",
+    "condition": {
+      "minima-line": "RNP 0.30",
+      "change": "DA 1500/DA 515"
+    }
+  },
+  "time": {
+    "start": "1805241549",
+    "end": "1901031549",
+    "estimated": true
+  }
+}

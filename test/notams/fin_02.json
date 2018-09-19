@@ -1,0 +1,15 @@
+{
+  "original": "!FIN 07/010 FIN RWY 24 PAPI UNUSABLE 1807311815-1811162111",
+  "accountability": "FIN",
+  "notamNumber": "07/010",
+  "location": "FIN",
+  "keyword": "RWY",
+  "runway": {
+    "identification": "24",
+    "condition": "PAPI UNUSABLE"
+  },
+  "time": {
+    "start": "1807311815",
+    "end": "1811162111"
+  }
+}

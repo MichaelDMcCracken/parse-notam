@@ -1,0 +1,20 @@
+{
+  "original": "!OMA 09/062 (KOMA A4057/18) OMA APRON TERMINAL RAMP TXL BTN TWY A1 AND TWY F3 CLSD TO ACFT WINGSPAN MORE THAN 118FT 1809122147-1811302359",
+  "accountability": "OMA",
+  "notamNumber": "09/062",
+  "notamNumPar": "(KOMA A4057/18)",
+  "location": "OMA",
+  "keyword": "APRON",
+  "apron": {
+    "identification": "TERMINAL RAMP TXL",
+    "between": [
+      "TWY A1",
+      "TWY F3"
+    ],
+    "condition": "CLSD TO ACFT WINGSPAN MORE THAN 118FT"
+  },
+  "time": {
+    "start": "1809122147",
+    "end": "1811302359"
+  }
+}
