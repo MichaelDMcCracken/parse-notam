@@ -5,6 +5,7 @@ var expect = chai.expect;
 var parseNotam = require('../../index.js');
 var fs = require('fs');
 var path = require('path');
+var alphabetizeObjectKeys = require('@ryanburnette/alphabetize-object-keys');
 
 describe('notams',function () {
   var files = fs.readdirSync(path.resolve(__dirname));
@@ -18,7 +19,7 @@ describe('notams',function () {
 
   notams.forEach(function (notam,i) {
     it(files[i],function () {
-      expect(notam).to.eql(parseNotam(notam.original));
+      expect(alphabetizeObjectKeys(notam)).to.eql(alphabetizeObjectKeys(parseNotam(notam.original)));
     });
   });
 });
